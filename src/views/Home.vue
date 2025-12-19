@@ -179,6 +179,7 @@ const testimonials = [
                 </p>
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -218,6 +219,7 @@ const testimonials = [
                 </p>
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -256,6 +258,7 @@ const testimonials = [
                 </p>
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -302,6 +305,7 @@ const testimonials = [
                 </p>
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -341,6 +345,7 @@ const testimonials = [
                 </p>
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -379,6 +384,7 @@ const testimonials = [
                 </p>
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now

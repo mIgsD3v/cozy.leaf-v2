@@ -148,6 +148,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -188,6 +189,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -227,6 +229,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -266,6 +269,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -305,6 +309,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -344,6 +349,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -383,6 +389,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -422,6 +429,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -461,6 +469,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -500,46 +509,7 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
-                    class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
-                  >
-                    Order Now
-                  </RouterLink>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 1 -->
-            <div
-              class="rounded-xl overflow-hidden flex flex-col items-start w-full max-w-full mx-auto bg-[#faf5ef] shadow-sm"
-            >
-              <img
-                src="/CozyLeaf/biryani.png"
-                alt="Gulab Jamun"
-                class="w-full h-40 sm:h-48 object-contain bg-transparent"
-              />
-
-              <div class="p-3 sm:p-4 w-full">
-                <div class="flex flex-col items-start mb-2">
-                  <h3 class="text-base sm:text-xl text-[#1E1E1E] font-semibold">
-                    Chicken Biryani
-                  </h3>
-                  <span
-                    class="text-[#800000] font-semibold text-sm sm:text-base"
-                  >
-                    ₹250
-                  </span>
-                </div>
-
-                <p
-                  class="text-xs sm:text-sm text-[#00000099] mb-4 text-justify"
-                  style="font-family: 'Lato', sans-serif"
-                >
-                  Fragrant basmati rice layered with tender chicken and
-                  traditional spices.
-                </p>
-
-                <div class="flex justify-end w-full">
-                  <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
@@ -580,6 +550,48 @@
 
                 <div class="flex justify-end w-full">
                   <RouterLink
+                    to="/menu"
+                    class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
+                  >
+                    Order Now
+                  </RouterLink>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 1 -->
+            <div
+              class="rounded-xl overflow-hidden flex flex-col items-start w-full max-w-full mx-auto bg-[#faf5ef] shadow-sm"
+            >
+              <img
+                src="/CozyLeaf/biryani.png"
+                alt="Gulab Jamun"
+                class="w-full h-40 sm:h-48 object-contain bg-transparent"
+              />
+
+              <div class="p-3 sm:p-4 w-full">
+                <div class="flex flex-col items-start mb-2">
+                  <h3 class="text-base sm:text-xl text-[#1E1E1E] font-semibold">
+                    Chicken Biryani
+                  </h3>
+                  <span
+                    class="text-[#800000] font-semibold text-sm sm:text-base"
+                  >
+                    ₹250
+                  </span>
+                </div>
+
+                <p
+                  class="text-xs sm:text-sm text-[#00000099] mb-4 text-justify"
+                  style="font-family: 'Lato', sans-serif"
+                >
+                  Fragrant basmati rice layered with tender chicken and
+                  traditional spices.
+                </p>
+
+                <div class="flex justify-end w-full">
+                  <RouterLink
+                    to="/menu"
                     class="inline-block bg-[#800000] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-full transition duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                   >
                     Order Now
