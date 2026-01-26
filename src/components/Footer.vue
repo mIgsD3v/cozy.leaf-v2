@@ -29,7 +29,7 @@
         <div class="flex items-center gap-4">
           <!-- Facebook -->
           <a
-            href="https://www.facebook.com/profile.php?id=61555319066004"
+            href="https://www.facebook.com/"
             target="_blank"
             rel="noopener"
             class="transition duration-300 hover:opacity-80"
