@@ -11,7 +11,7 @@
         <img
           src="/CozyLeaf/cozyLeaf.png"
           alt="TSI Logo"
-          class="w-20 md:h-65 md:w-60 h-auto transition-all duration-300 object-contain"
+          class="w-28 md:h-65 md:w-60 h-auto transition-all duration-300 object-contain"
         />
       </RouterLink>
 
@@ -20,16 +20,7 @@
       <!-- Mobile Nav: Bag, Search, Hamburger -->
       <div class="lg:hidden flex items-center gap-3">
         <!-- 🛍️ Shopping Bag Icon -->
-        <RouterLink
-          to=""
-          class="inline-flex items-center justify-center w-10 h-10 text-[#b3996a] transition hover:text-white hover:bg-[#D4AF37] rounded-full"
-        >
-          <img
-            src="/CozyLeaf/icons/shoppingbag.svg"
-            alt="Shopping Bag"
-            class="w-5 h-5"
-          />
-        </RouterLink>
+   
 
         <!-- 🔍 Search Icon -->
         <RouterLink
