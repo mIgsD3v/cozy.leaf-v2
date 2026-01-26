@@ -146,6 +146,33 @@
       </div>
     </transition>
   </header>
+
+  <!-- 🔹 Scroll Progress Bar -->
+<div
+  class="fixed top-0 right-0 w-1 h-full
+         bg-gray-200
+         z-[1000]"
+>
+  <div
+    ref="scrollProgress"
+    class="w-full h-0
+           bg-[#D4AF37]
+           transition-all duration-100 ease-out"
+  ></div>
+</div>
+<!-- 🔹 Scroll to Top Button -->
+<button
+  ref="toTop"
+  @click="scrollToTop"
+  class="hidden fixed bottom-4 right-4 z-[100]
+         animate-bounce
+         text-white
+         p-4 rounded-full shadow-lg
+         transition-all duration-300
+         bg-[#D4AF37] hover:bg-[#D4AF37]"
+>
+  ↑
+</button>
 </template>
 
 <script setup>
@@ -154,6 +181,9 @@ import { useRoute, RouterLink } from "vue-router";
 
 const route = useRoute();
 
+/* =======================
+   ROUTE / MENU LOGIC
+======================= */
 const currentPath = computed(() => route?.path ?? "");
 const isMenuPage = computed(() => currentPath.value === "/menu");
 
@@ -165,19 +195,48 @@ const menuItems = [
   { name: "Contact Us", link: "/contact-us" },
 ];
 
+/* =======================
+   HEADER SCROLL EFFECT
+======================= */
 const isScrolled = ref(false);
-const handleScroll = () => {
+const handleHeaderScroll = () => {
   isScrolled.value = window.scrollY > 10;
 };
 
-onMounted(() => {
-  window.addEventListener("scroll", handleScroll);
-});
-onUnmounted(() => {
-  window.removeEventListener("scroll", handleScroll);
-});
+/* =======================
+   SCROLL PROGRESS + TO TOP
+======================= */
+const scrollProgress = ref(null);
+const toTop = ref(null);
 
-// Mobile menu toggle
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
+const handleScrollEffects = () => {
+  const scrollTop = window.scrollY;
+  const docHeight =
+    document.documentElement.scrollHeight - window.innerHeight;
+
+  const scrollPercent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+
+  // progress bar height
+  if (scrollProgress.value) {
+    scrollProgress.value.style.height = `${scrollPercent}%`;
+  }
+
+  // show / hide scroll-to-top button
+  if (toTop.value) {
+    toTop.value.classList.toggle("hidden", scrollTop < 300);
+  }
+
+  // header shrink
+  isScrolled.value = scrollTop > 10;
+};
+
+/* =======================
+   MOBILE MENU
+======================= */
 const mobileMenuOpen = ref(false);
 const toggleMobileMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value;
@@ -185,6 +244,17 @@ const toggleMobileMenu = () => {
 const closeMobileMenu = () => {
   mobileMenuOpen.value = false;
 };
+
+/* =======================
+   LIFECYCLE
+======================= */
+onMounted(() => {
+  window.addEventListener("scroll", handleScrollEffects);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScrollEffects);
+});
 </script>
 
 <style scoped>
