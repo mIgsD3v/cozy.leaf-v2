@@ -1,6 +1,11 @@
 Cozy Leaf – Food Menu Website
 
-A responsive food menu website for Cozy Leaf, designed in Figma and developed using Vue 3, Vite, and Tailwind CSS.
+A responsive food menu website for Cozy Leaf, developed using Vue 3, Vite, and Tailwind CSS.
+
+Frontend Development: Albert M. Miguela
+
+Figma Design Collaboration: Adriane Daradal
+
 The project follows clean UI/UX standards, smooth navigation, and a mobile-first layout to deliver an optimal user experience across devices.
 
 - Features
