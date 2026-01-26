@@ -87,6 +87,7 @@ const testimonials = [
                   class="flex flex-row flex-wrap justify-center md:justify-start gap-3 pt-2 mb-6"
                 >
                   <RouterLink
+                   to="/menu"
                     class="bg-[#800000] text-white px-8 py-4 text-lg sm:text-xl rounded-lg transition-colors duration-300 hover:bg-[#D4AF37] hover:text-[#800000]"
                     style="font-family: 'DM Serif Text', serif"
                   >
