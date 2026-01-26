@@ -63,7 +63,7 @@
             </svg>
             <span
               class="font-body text-base sm:text-lg md:text-xl lg:text-1xl text-gray-700 italic max-w-xl mb-4"
-              >negishearth@gmail.com</span
+              >cozyLeaf@gmail.com</span
             >
           </li>
 

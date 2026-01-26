@@ -19,7 +19,7 @@
         <img
           src="/CozyLeaf/logo-footer.png"
           alt="Footer Logo"
-          class="w-14 sm:w-28 md:w-32 lg:w-20 h-auto object-contain"
+          class="w-40 sm:w-28 md:w-32 lg:w-60 h-auto object-contain"
         />
       </div>
     </div>

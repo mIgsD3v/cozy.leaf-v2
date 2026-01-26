@@ -41,13 +41,7 @@
           <p
             class="font-body text-base sm:text-lg md:text-xl lg:text-1xl text-gray-700 max-w-xl mb-4"
           >
-            At Negi's Hearth, we serve more than just meals — we serve memories.
-            Inspired by the warmth of Indian kitchens and the comfort of
-            home-cooked food, our cloud kitchen brings delicious home style
-            food straight to your doorstep. Whether you’re away from home or
-            just craving something truly comforting, our dishes are made to
-            remind you of your favorite family recipes — fresh, flavorful, and
-            filled with love.
+      At Cozy Leaf, we serve more than just meals — we serve memories. Inspired by the warmth of home kitchens and the comfort of home-cooked food, our cloud kitchen brings delicious, home-style dishes straight to your doorstep. Whether you’re away from home or simply craving something truly comforting, our meals are crafted to remind you of your favorite family recipes — fresh, flavorful, and made with love
           </p>
         </div>
       </div>
